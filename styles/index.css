@@ -1,0 +1,380 @@
+/* Common css start */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+/* Common css end */
+
+/********** header section satart*********** */
+.header{
+    width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 20px;
+}
+
+.header-heading{
+    font-size: 45px;
+    font-weight: 700;
+    
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+/************* header section end ************* */
+/* main section  */
+
+/* Brand New section start */
+.brand-new-section{
+    text-align: center;
+    margin-top: 102px;
+}
+
+.heading-title{
+    font-size: 64px;
+    font-weight: 700;
+    color: #131313;
+}
+
+.brand-new-paragraph{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 20px;
+
+}
+
+.btn-primary{
+    background-color: #FF900E;
+    width: 180px;
+    height: 64px;
+    font-size: 20px;
+    border: none;
+    color: #FFFFFF;
+    border-radius: 5px;
+    margin-top: 33px;
+}
+
+.banner img{
+    width: 1440px;
+    height: 700px;
+    border-radius: 8px;
+    margin-top: 50px;
+}
+/* Brand New section ends */
+
+/* Features section start*/
+
+.features-container{
+    display: grid;
+    gap: 73px;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 85px;
+    margin-left: 80px;
+    
+}
+.container-left{
+    display: grid;
+    gap: 24px;
+    grid-template-columns: repeat(2, 1fr);
+}
+.container-right{
+    margin-top: 263px;
+}
+
+.right-heading-title{
+    font-size: 45px;
+    font-weight: 500;
+    margin-bottom: 24px;
+}
+.span-1{
+    color: #727272;
+}
+.span-2{
+    color: #131313;
+}
+.span-3{
+    color: #FF900E;
+}
+
+/* Features section ends*/
+
+ /* Features you will section start  */
+
+.features{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 50px; 
+    margin-left: 80px;
+}
+
+.card-section{
+    border: 1px solid #131313;
+    margin: 18px;
+}
+
+.heading-1{
+    border-left: 2px solid #FF900E;
+    padding: 5px;
+}
+.small-heading{
+    display: flex;
+    flex-direction: column;
+}
+.small-heading > div{
+    padding: 20px;
+    margin-top: 10px;
+    
+}
+.small-heading h4{
+    margin-bottom: 10px;
+    
+}
+.heading-paragraph{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    /* margin-left: 18px; */
+}
+.btn-card{
+    width: 180px;
+    height: 110px;
+    background-color: #FF900E;
+    border-radius: 8px;
+    position: relative;
+    bottom: 70px;
+}
+.btn-card p{
+    text-align: center;
+    padding: 20px;
+    font-size: 22px;
+    font-weight: 900;
+    color: #FFFFFF;
+}
+
+.spn{
+    font-size: 20px;
+    font-weight: 400;
+    
+}
+.feature-right-content .right-image img{
+    width: 100%;
+    height: auto;
+}
+ /* Features you will section ends */
+
+/* some-facts section start */
+.some-facts-container{
+    margin-left: 80px;
+}
+
+.some-facts{
+    font-size: 45px;
+    font-weight: 700;
+    margin-top: 30px;
+
+}
+.some-paragraph{
+    font-size: 16px;
+    margin-top: 20px;
+    line-height: 24px;
+    font-weight: 400;
+}
+/* some-facts section ends */
+
+/* Awards Winning section start*/
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.card{
+    border: 1px solid orange;
+    width: 170px;
+    height: 140px;
+    padding: 20px;
+    text-align: center;
+    margin-right: 130px;
+}
+
+.card h4{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 8px;  
+}
+.card p{
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 8px;
+}
+
+/* Awards Winning section ends */
+
+/* Our sponsors section start */
+
+.sponsor-content{
+    text-align: center;
+    margin-top: 180px;
+}
+.sponsor-content h1{
+    font-size: 45px;
+    font-weight: 700;
+    
+}
+.sponsor-content p{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+/* Our sponsors section ends */
+
+/* sponsors-logo section start */
+.sponsors{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 80px;
+
+}
+.sponsor-logo{
+    margin-right: 140px;
+    
+}
+.logo-2, .logo-5{
+    filter:invert(0.65)
+}
+/* sponsors-logo section ends */
+
+/* footer section start */
+.footer{
+    margin-top: 20px;
+    margin-left: 330px;
+}
+.footer p{
+    width: 800px;
+    height: 60px;
+    font-size: 18px;
+    color: #424242;
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    background-color: #f58505;
+}
+/* footer section ends  */
+
+/* media query for mobile device*/
+
+@media screen and (max-width: 576px) {
+    /* header section */
+    .header{
+        width: 100%;
+        flex-direction: column;
+    }
+    .navbar ul li{
+        display:block;
+        margin-bottom: 20px;
+        
+    }
+    /* Brand New section  */
+    .brand-new-section{
+        text-align: center;
+        margin-top: 30px;
+    }
+    .heading-title{
+        font-size: 45px;
+        font-weight: 500;
+    }
+    .brand-new-section .banner img{
+        width: 100%;
+        height: auto;
+    }
+    /* Features section */
+    .features-container{
+        flex-direction: column;
+        gap: 20px;
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 80px;  
+    }
+    .container-left{
+        gap: 24px;
+        grid-template-columns: repeat(1, 1fr);
+        margin: auto;
+    }
+    .container-right{
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    /* Features you will section*/
+
+    .features{
+        flex-direction: column;
+        grid-template-columns: repeat(1, 1fr); 
+        align-items: center;
+        justify-content: center; 
+    }
+    .feature-right-content .right-image img{
+        width: 100%;
+        height: auto;
+    }
+    .small-heading{
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    /* some-facts */
+    .some-facts-container{
+        text-align: center;
+    }
+
+    /* card section */
+
+    .card-container{
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .card{
+        margin-bottom: 20px;
+        transition: 1s;
+        transform: translate(360deg)
+    }
+    .card:hover{
+        width: 200px;
+        height: 200px;
+        border-radius: 5px;
+        background-color: red;
+        color: white;
+        transform: rotate(360deg);
+    }
+
+    /* sponsors */
+
+    .sponsors{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 40px;
+        gap: 40px;
+    }
+
+    /*  extra section */
+
+    .own img{
+        width: 100%;
+        height: auto;    
+    }
+}
